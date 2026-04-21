@@ -4,23 +4,33 @@
     closeModalBtn: document.querySelector('[data-modal-close]'),
     closeModalButton: document.querySelector('.modal-btn'),
     modal: document.querySelector('[data-modal]'),
+    input: document.querySelector('.subscribe-form-input'),
   };
 
+  if (!refs.openModalBtn || !refs.modal || !refs.input) {
+    return;
+  }
+
   refs.openModalBtn.addEventListener('click', event => {
-    const input = document.querySelector('.subscribe-form-input');
     event.preventDefault();
 
-    if (!input.checkValidity()) {
+    if (!refs.input.checkValidity()) {
       alert('Помилка: Поле Email заповнене не вірно!');
-    } else {
-      toggleModal();
-      console.log(`Email користувача - ${input.value}`);
+      return;
     }
-    input.value = '';
+
+    toggleModal();
+    console.log(`Email користувача - ${refs.input.value}`);
+    refs.input.value = '';
   });
 
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalButton.addEventListener('click', toggleModal);
+  if (refs.closeModalBtn) {
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+  }
+
+  if (refs.closeModalButton) {
+    refs.closeModalButton.addEventListener('click', toggleModal);
+  }
 
   function toggleModal() {
     refs.modal.classList.toggle('subscription-open');
