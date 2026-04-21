@@ -1,0 +1,126 @@
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.location-text-wrapper {
+  margin-bottom: 40px;
+}
+
+.location-text-find {
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.location-title {
+  margin-bottom: 24px;
+  font-size: 36px;
+}
+
+.location-text {
+  font-size: 18px;
+}
+
+.location-address {
+  font-style: normal;
+}
+
+.location-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.location-item {
+  width: 100%;
+}
+
+.location-icon {
+  fill: #0b0803;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.location-list-text {
+  font-family: Aboreto, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.location-list-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0b0803;
+  display: block;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.location-list-address {
+  line-height: 1.5;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.location-list-direction {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #0b0803;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.location-icon-right {
+  margin-left: 8px;
+  fill: #0b0803;
+}
+.location-map-wrapper {
+  border-radius: 40px;
+  width: 100%;
+  height: 307px;
+  overflow: hidden;
+}
+.location-map-frame {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .location-list {
+    flex-wrap: nowrap;
+  }
+  .location-item {
+    width: calc(33.3333% - 26.6667px);
+  }
+  .location-contacts-wrapper {
+    width: 100%;
+  }
+  .location-map-wrapper {
+    height: 377px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location-container {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .location-contacts-wrapper {
+    max-width: 419px;
+  }
+  .location-title {
+    font-size: 48px;
+  }
+  .location-list {
+    flex-wrap: wrap;
+  }
+  .location-item {
+    width: 100%;
+  }
+  .location-map-wrapper {
+    height: 697px;
+    width: 869px;
+  }
+}

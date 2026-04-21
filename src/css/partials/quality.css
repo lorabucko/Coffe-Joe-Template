@@ -1,0 +1,126 @@
+.quality {
+  text-align: center;
+}
+
+.quality-header {
+  max-width: 768px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quality-label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.quality-title {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.quality-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.quality-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.quality-item > h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.quality-item p {
+  font-size: 16px;
+}
+
+.quality-item picture {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.quality-item img {
+  object-fit: cover;
+  border-radius: 32px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .quality-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quality-item img {
+    aspect-ratio: 340 / 193;
+  }
+
+  .quality-item:nth-child(3) img {
+    aspect-ratio: 704 / 401;
+  }
+
+  .quality-item:nth-child(3) p {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .quality-title {
+    width: 452px;
+    margin-inline: auto;
+  }
+
+  .quality-header p {
+    width: 704px;
+    margin-inline: auto;
+  }
+
+  .quality-item:nth-child(1) > h3 {
+    width: 284px;
+    margin-inline: auto;
+  }
+
+  .quality-item:nth-child(1) > p {
+    width: 294px;
+    margin-inline: auto;
+  }
+
+  .quality-item:nth-child(2) > h3,
+  .quality-item:nth-child(2) > p {
+    width: 340px;
+    margin-inline: auto;
+  }
+
+  .quality-item:nth-child(3) {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .quality-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quality-title {
+    font-size: 48px;
+  }
+
+  .quality-item:nth-child(3) {
+    grid-column: span 1;
+  }
+
+  .quality-item:nth-child(3) img {
+    width: 100%;
+    aspect-ratio: 421/240;
+  }
+}
