@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Coffe-Joe-Template/assets/favicon-DV27zzPo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CoffeeJoy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,30 +18,898 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script type="module" crossorigin src="/Coffe-Joe-Template/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/Coffe-Joe-Template/assets/index-BbONoqAP.css">
   </head>
   <body>
-    <load src="./partials/header.html" />
+    <header class="header">
+  <div class="container header-container">
+    <nav class="header-navigation">
+      <a class="header-logo" href="./index.html">
+        <svg class="header-svg" width="84" height="36">
+          <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="nav-links-gap">
+        <li class="header-nav-links">
+          <a href="#about-us" class="header-list-link">About us</a>
+        </li>
+        <li class="header-nav-links">
+          <a href="#benefits" class="header-list-link">Benefits</a>
+        </li>
+        <li class="header-nav-links">
+          <a href="#gallery" class="header-list-link">Gallery</a>
+        </li>
+        <li class="header-nav-links">
+          <a href="#testimonial" class="header-list-link">Testimonial</a>
+        </li>
+        <li class="header-nav-links">
+          <a href="#location" class="header-list-link">Location</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button type="button" class="burger-btn" data-menu-open>
+      <svg class="burger-icon" width="24" height="24">
+        <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
 
     <main>
       <!-- Loads the specified .html file -->
-      <load src="./partials/hero.html" />
-      <load src="./partials/welcome.html" />
-      <load src="./partials/quality.html" />
-      <load src="./partials/experience.html" />
-      <load src="./partials/subscribe.html" />
-      <load src="./partials/testimonials.html" />
-      <load src="./partials/location.html" />
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero-title" data-aos="fade-up">
+      Savor the Essence of Specialty Coffee
+    </h1>
+    <p class="hero-text" data-aos="fade-up" data-aos-delay="200">
+      At CoffeeJoy, we believe every cup tells a story. Join us in exploring the
+      rich flavors and aromas of our carefully curated coffee selections.
+    </p>
+    <a href="#benefits" class="hero-link">Learn More</a>
+  </div>
+</section>
+
+      <section class="welcome-section" id="about-us">
+  <div class="container">
+    <div class="welcome-container">
+      <div class="container-hero">
+        <p class="welcome-word" data-aos="fade-down">Welcome</p>
+        <h2 class="welcome-hero" data-aos="fade-up" data-aos-delay="200">
+          Our Journey: Passion for Quality Coffee
+        </h2>
+      </div>
+      <div class="container-about">
+        <p class="welcome-text" data-aos="fade-up" data-aos-delay="400">
+          At CoffeeJoy, we believe that every cup tells a story. Our mission is
+          to bring you the finest coffee experiences, crafted with care and
+          dedication. We are committed to sourcing high-quality beans and
+          roasting them to perfection, ensuring each sip is a delight.
+        </p>
+        <a
+          class="welcome-link"
+          href="#location"
+          data-aos="fade-up"
+          data-aos-delay="600"
+          >Find location
+          <svg class="welcome-link-svg" width="24" height="24">
+            <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-map-pin"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <picture data-aos="zoom-in" data-aos-delay="800">
+      <source
+        media="(min-width: 1440px)"
+        srcset="/Coffe-Joe-Template/assets/welcome-desk-BL9O33Ve.jpg 1x, /Coffe-Joe-Template/assets/welcome-desk@2x-CRzrPwt2.jpg 2x"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/Coffe-Joe-Template/assets/welcome-tab-DDD7DPwU.jpg 1x, /Coffe-Joe-Template/assets/welcome-tab@2x-QL6Usm9t.jpg 2x"
+      />
+      <img
+        class="welcome-img"
+        src="/Coffe-Joe-Template/assets/welcome-mob-CinH6Yg7.jpg"
+        srcset="/Coffe-Joe-Template/assets/welcome-mob-CinH6Yg7.jpg 1x, /Coffe-Joe-Template/assets/welcome-mob@2x-Dqv9oFf1.jpg 2x"
+        width="1312"
+        height="738"
+        alt="A man in an apron prepares coffee using the pour-over method: pouring hot water from a kettle into a funnel with a filter on the kitchen counter, surrounded by plants and coffee beans."
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="quality" id="benefits">
+  <div class="container">
+    <div class="quality-header">
+      <p class="quality-label" data-aos="fade-down">Quality</p>
+
+      <h2 class="quality-title" data-aos="fade-up" data-aos-delay="200">
+        WHY COFFEEJOY STANDS OUT FROM THE REST
+      </h2>
+
+      <p class="quality-text" data-aos="fade-up" data-aos-delay="400">
+        At CoffeeJoy, we pride ourselves on delivering the freshest roasted
+        coffee, crafted with care by our skilled baristas. Our flexible
+        subscription plans ensure that your coffee experience is tailored to
+        your needs.
+      </p>
+    </div>
+
+    <ul class="quality-list">
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="100">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/Coffe-Joe-Template/assets/fresh-mob-ONBmpUbJ.jpg 1x, /Coffe-Joe-Template/assets/fresh-mob@2x-Dyay7KOu.jpg 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/Coffe-Joe-Template/assets/fresh-mob-ONBmpUbJ.jpg 1x, /Coffe-Joe-Template/assets/fresh-mob@2x-Dyay7KOu.jpg 2x"
+          />
+
+          <img
+            src="/Coffe-Joe-Template/assets/fresh-mob-ONBmpUbJ.jpg"
+            srcset="/Coffe-Joe-Template/assets/fresh-mob@2x-Dyay7KOu.jpg 2x"
+            alt="Fresh roasted coffee"
+          />
+        </picture>
+
+        <h3>Fresh-Roasted Coffee for Every Taste</h3>
+        <p>Savor the rich flavors of our expertly sourced beans.</p>
+      </li>
+
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="150">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/Coffe-Joe-Template/assets/expert-mob-CjIZvGaY.jpg 1x, /Coffe-Joe-Template/assets/expert-mob@2x-5wY9be03.jpg 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/Coffe-Joe-Template/assets/expert-mob-CjIZvGaY.jpg 1x, /Coffe-Joe-Template/assets/expert-mob@2x-5wY9be03.jpg 2x"
+          />
+
+          <img
+            src="/Coffe-Joe-Template/assets/expert-mob-CjIZvGaY.jpg"
+            srcset="/Coffe-Joe-Template/assets/expert-mob@2x-5wY9be03.jpg 2x"
+            alt="Expert baristas"
+          />
+        </picture>
+
+        <h3>Expert Baristas Crafting Your Perfect Brew</h3>
+        <p>
+          Our baristas are passionate about coffee and skilled in their craft.
+        </p>
+      </li>
+
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="200">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/Coffe-Joe-Template/assets/cozy-mob-DFJHMVmT.jpg 1x, /Coffe-Joe-Template/assets/cozy-mob@2x-B59Lb1-q.jpg 2x"
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="/Coffe-Joe-Template/assets/cozy-mob-DFJHMVmT.jpg 1x, /Coffe-Joe-Template/assets/cozy-mob@2x-B59Lb1-q.jpg 2x"
+          />
+
+          <img
+            src="/Coffe-Joe-Template/assets/cozy-mob-DFJHMVmT.jpg"
+            srcset="/Coffe-Joe-Template/assets/cozy-mob@2x-B59Lb1-q.jpg 2x"
+            alt="Cozy atmosphere"
+          />
+        </picture>
+        <h3>Cozy Atmosphere</h3>
+        <p>
+          We don’t just serve coffee — we create a warm and welcoming space
+          where every cup feels like home.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="experience" id="gallery">
+  <div class="container">
+    <h2 class="experience__title">Coffee Moments</h2>
+    <p class="experience__text">
+      Experience the warmth and community of CoffeeJoy.
+    </p>
+    <ul class="experience__gallery">
+      <li data-aos="zoom-in" data-aos-delay="100">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/latte-desktop-CNXnWUcx.jpg 1x, /Coffe-Joe-Template/assets/latte-desktop@2x-CmnC3Yqw.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/latte-tablet-fbU4Fu59.jpg 1x, /Coffe-Joe-Template/assets/latte-tablet@2x-BqyabKTn.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/latte-mobile-9srkEMAF.jpg 1x, /Coffe-Joe-Template/assets/latte-mobile@2x-C0jaHGUe.jpg 2x"
+            src="/Coffe-Joe-Template/assets/latte-desktop@2x-CmnC3Yqw.jpg"
+            alt="A close-up of a ceramic cup with a latte and delicate leaf-shaped foam art, placed on a rustic wooden table. Soft morning sunlight falls diagonally across the surface, casting warm shadows. Minimalistic setup with a linen napkin and small spoon nearby. Background softly blurred."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="200">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/croissant-desktop-DCSbe3gX.jpg 1x, /Coffe-Joe-Template/assets/croissant-desktop@2x-BlUcES6y.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/croissant-tablet-Bd09mES1.jpg 1x, /Coffe-Joe-Template/assets/croissant-tablet@2x-CU_YJ4cM.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/croissant-mobile-BUdBaFMT.jpg 1x, /Coffe-Joe-Template/assets/croissant-mobile@2x-CGLtRNX_.jpg 2x"
+            src="/Coffe-Joe-Template/assets/croissant-desktop@2x-BlUcES6y.jpg"
+            alt="A breakfast scene with a filter coffee in a glass server, a small ceramic mug, and a plate with a croissant and butter. Everything sits on a brown tablecloth beside a window. Bright but soft natural light, subtle shadows, and an overall quiet morning vibe."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="300">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/book-desktop-8IpCA9fs.jpg 1x, /Coffe-Joe-Template/assets/book-desktop@2x-DIXBCscW.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/book-tablet-DhuN9HlY.jpg 1x, /Coffe-Joe-Template/assets/book-tablet@2x--4EEjP_f.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/book-mobile-DPxyPC8g.jpg 1x, /Coffe-Joe-Template/assets/book-mobile@2x-BrvsiRyM.jpg 2x"
+            src="/Coffe-Joe-Template/assets/book-desktop@2x-DIXBCscW.jpg"
+            alt="A quiet café corner with a beige armchair and a small round wooden table. On the table — a cappuccino in a matte cup and an open book. Natural window light illuminates the scene. Neutral tones, cozy atmosphere, no people, just the setting."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="400">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/pouring-desktop-CtS42lyC.jpg 1x, /Coffe-Joe-Template/assets/pouring-desktop@2x-BAzamxma.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/pouring-tablet-DsBEWqpq.jpg 1x, /Coffe-Joe-Template/assets/pouring-tablet@2x-CM1BhX01.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/pouring-mobile-D5ss96F0.jpg 1x, /Coffe-Joe-Template/assets/pouring-mobile@2x-Bq5kaOD3.jpg 2x"
+            src="/Coffe-Joe-Template/assets/pouring-desktop@2x-BAzamxma.jpg"
+            alt="Hands of a barista gently pouring a rich espresso shot into a ceramic cup. The café background is softly blurred, with visible coffee tools like a tamper and milk pitcher. Warm lighting, dark wood counter, artisanal feel. Emphasis on process and craft."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="500">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/wide-view-desktop-m0Wd00f-.jpg 1x, /Coffe-Joe-Template/assets/wide-view-desktop@2x-BUziUAVs.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/wide-view-tablet-DtSMabID.jpg 1x, /Coffe-Joe-Template/assets/wide-view-tablet@2x-Bbx_lz-m.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/wide-view-mobile-DRmM9vx9.jpg 1x, /Coffe-Joe-Template/assets/wide-view-mobile@2x-VZJ6FlPU.jpg 2x"
+            src="/Coffe-Joe-Template/assets/wide-view-desktop@2x-BUziUAVs.jpg"
+            alt="A wide view of the CoffeeJoy interior — wooden furniture, soft cushions, warm pendant lights, and green plants on shelves. A few people in the background enjoying coffee, blurred slightly to focus on the space. Overall mood: warm, welcoming, and design-conscious."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="600">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/two-cups-desktop-Dr8r6yTp.jpg 1x, /Coffe-Joe-Template/assets/two-cups-desktop@2x-BYNPJBEW.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/two-cups-tablet-DnusepxS.jpg 1x, /Coffe-Joe-Template/assets/two-cups-tablet@2x-AvQEoEIk.jpg 2x"
+            media="(min-width:768px)"
+            width="336"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/two-cups-mobile-DiN7cejk.jpg 1x, /Coffe-Joe-Template/assets/two-cups-mobile@2x-C3U3Cdzx.jpg 2x"
+            src="/Coffe-Joe-Template/assets/two-cups-desktop@2x-BYNPJBEW.jpg"
+            alt="Two coffee cups on a small round table outdoors, surrounded by potted plants and greenery. The table is wooden, with sunlight filtered through leaves. Minimal accessories — perhaps one hand reaching for the cup, the rest of the scene calm and framed in warm tones."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+      <li data-aos="zoom-in" data-aos-delay="700">
+        <picture>
+          <source
+            srcset="/Coffe-Joe-Template/assets/takeaway-cup-desktop-BUl8ap3w.jpg 1x, /Coffe-Joe-Template/assets/takeaway-cup-desktop@2x-Dd587Uw8.jpg 2x"
+            media="(min-width:1440px)"
+            width="416"
+          />
+          <source
+            srcset="/Coffe-Joe-Template/assets/takeaway-cup-tablet-BOW1uTzW.jpg 1x, /Coffe-Joe-Template/assets/takeaway-cup-tablet@2x-NneFY5zy.jpg 2x"
+            media="(min-width:768px)"
+            width="704"
+          />
+          <img
+            srcset="/Coffe-Joe-Template/assets/takeaway-cup-mobile-BJeC_u7o.jpg 1x, /Coffe-Joe-Template/assets/takeaway-cup-mobile@2x-AMKzoeIV.jpg 2x"
+            src="/Coffe-Joe-Template/assets/takeaway-cup-desktop@2x-Dd587Uw8.jpg"
+            alt="A takeaway coffee cup with a kraft sleeve and CoffeeJoy branding placed on a wooden bench in a park. Nearby — a linen tote bag and a book partially sticking out. Early morning sunlight filters through the trees, creating soft, dappled shadows. Natural, earthy tones. Calm, slow-morning mood with no people in frame."
+            width="416"
+            class="experience__gallery-image"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section id="subscribe" class="subscribe">
+  <div class="container subscribe-container">
+    <div class="subscribe-column">
+      <div class="subscribe-content" data-aos="fade-right" data-aos-delay="100">
+        <h2 class="section-title">Join Our Coffee Community</h2>
+        <p class="subscribe-content-text">
+          Experience the joy of coffee delivered right to your door. Sign up
+          today!
+        </p>
+      </div>
+
+      <div class="subscribe-actions">
+        <form class="subscribe-form">
+          <div class="subscribe-form-field">
+            <input
+              type="email"
+              id="subscribe-input-email"
+              name="subscribe-email"
+              required
+              placeholder="Your Email Here"
+              aria-label="subscribe email input"
+              class="subscribe-form-input"
+            />
+            <p class="subscribe-form-error-text"></p>
+          </div>
+          <button type="submit" class="subscribe-form-button">
+            <span>
+              Subscribe
+              <svg class="subscribe-symbol" width="24" height="24">
+                <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-chevrons-right"></use>
+              </svg>
+            </span>
+          </button>
+        </form>
+        <p class="subscribe-actions-text">
+          <a href="#" target="_blank" class="subscribe-terms-link">
+            By clicking Get Started, you agree to our Terms and Conditions.
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <picture class="subscribe-picture" data-aos="zoom-in" data-aos-delay="150">
+      <source
+        srcset="/Coffe-Joe-Template/assets/coffee-community-mobile-Do2RNzrl.jpg 1x, /Coffe-Joe-Template/assets/coffee-community-mobile-2x-DLQCSZKI.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <source
+        srcset="/Coffe-Joe-Template/assets/coffee-community-tablet-CS634jim.jpg 1x, /Coffe-Joe-Template/assets/coffee-community-tablet-2x-DCM68bdU.jpg 2x"
+        media="(max-width: 1439px)"
+      />
+      <source
+        srcset="/Coffe-Joe-Template/assets/coffee-community-desktop-BXf_GBpF.jpg 1x, /Coffe-Joe-Template/assets/coffee-community-desktop-2x-Cuz18WlR.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <img
+        src="/Coffe-Joe-Template/assets/coffee-community-tablet-CS634jim.jpg"
+        alt="coffee community"
+        width="704"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="testimonials" id="testimonial">
+  <div class="container">
+    <h2 class="testimonials-headding" data-aos="fade-up">
+      What our visitors say
+    </h2>
+    <ul class="testimonials-list">
+      <li class="testimonials-items" data-aos="fade-up">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "Every cup feels like a warm hug! I’m addicted to their seasonal
+          flavors!"
+        </p>
+        <h3 class="testimonials-visitors-name">Name Surname</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="150">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "CoffeeJoy is my go-to place for a perfect cup of coffee! The ambiance
+          is so inviting, and the baristas are always friendly."
+        </p>
+        <h3 class="testimonials-visitors-name">Alice Johnson</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="200">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "I love the variety of blends offered at CoffeeJoy. Every visit feels
+          like a new experience!"
+        </p>
+        <h3 class="testimonials-visitors-name">Michael Smith</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="250">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "The pastries are to die for! I can’t resist pairing them with my
+          favorite latte. Highly recommend this spot!"
+        </p>
+        <h3 class="testimonials-visitors-name">Emily Davis</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="300">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "A cozy little gem! CoffeeJoy has the best cold brew in town. I come
+          here every weekend!"
+        </p>
+        <h3 class="testimonials-visitors-name">James Brown</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="350">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "The atmosphere is perfect for working or relaxing with friends. Their
+          Wi-Fi is fast too!"
+        </p>
+        <h3 class="testimonials-visitors-name">Sarah Wilson</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="400">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "I’m addicted to their seasonal flavors! Each one is crafted with such
+          care and creativity."
+        </p>
+        <h3 class="testimonials-visitors-name">Chris Lee</h3>
+      </li>
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="450">
+        <ul class="testimonials-icon-list">
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-filled"></use>
+            </svg>
+          </li>
+          <li class="testimonials-icon-item">
+            <svg width="20" height="19">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-star-outline"></use>
+            </svg>
+          </li>
+        </ul>
+        <p class="testimonials-text">
+          "I appreciate how they source their coffee beans sustainably. It's
+          great to support such an ethical business!"
+        </p>
+        <h3 class="testimonials-visitors-name">Patricia Taylor</h3>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="location" id="location">
+  <div class="container location-container">
+    <div class="location-contacts-wrapper">
+      <div class="location-text-wrapper">
+        <p class="location-text-find">Find</p>
+        <h2 class="location-title">LOCATION</h2>
+        <p class="location-text">Visit us at our cazy coffee shop!</p>
+      </div>
+      <address class="location-address">
+        <ul class="location-list">
+          <li class="location-item">
+            <svg class="location-icon" width="32" height="32">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-envelope"></use>
+            </svg>
+            <p class="location-list-text">EMAIL</p>
+            <a class="location-list-link" href="mailto:hello@coffeejoy.com">hello@coffeejoy.com</a>
+          </li>
+          <li class="location-item">
+            <svg class="location-icon" width="32" height="32">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-phone"></use>
+            </svg>
+            <p class="location-list-text">PHONE</p>
+            <a class="location-list-link" href="tel:+15551235321">+1 (555) 123-5321</a>
+          </li>
+          <li class="location-item">
+            <svg class="location-icon" width="32" height="32">
+              <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-map"></use>
+            </svg>
+            <p class="location-list-text">OFFICE</p>
+            <p class="location-list-address">263 Newbury St, Boston, MA 02116, USA</p>
+            <a class="location-list-direction" href="https://maps.app.goo.gl/n7uQf3wMwNDru4uL9" target="_blank">
+              Get Directions
+              <svg class="location-icon-right" width="24" height="24">
+                <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-chevron-right"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+
+    <div class="location-map-wrapper">
+      <iframe class="location-map-frame"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.6691122678917!2d-71.08336659999999!3d42.349577499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0f084cda31%3A0x2c61033530218739!2zMjYzIE5ld2J1cnkgU3QsIEJvc3RvbiwgTUEgMDIxMTYsINCh0KjQkA!5e0!3m2!1sru!2sua!4v1770417676344!5m2!1sru!2sua"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+  </div>
+</section>
     </main>
 
-    <load src="./partials/footer.html" />
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-follow-us">
+        <a href="./index.html">
+          <svg class="footer-logo" width="146" height="84">
+            <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="footer-social">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">
+              <svg width="32" height="32">
+                <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <svg width="32" height="32">
+                <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-instagramm"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/" target="_blank">
+              <svg width="32" height="32">
+                <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-x"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <nav>
+        <ul class="nav-links-gap">
+          <li>
+            <a class="footer-nav-link" href="#about-us">About us</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#benefits">Benefits</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#testimonial">Testimonial</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#location">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p class="footer-legal">&copy; 2025 CoffeeJoy. All rights reserved.</p>
+  </div>
+</footer>
+
 
     <!-- menu and modals -->
-    <load src="./partials/mobile-menu.html" />
-    <load src="./partials/success-subscription.html" />
+    <div class="mobile-menu" data-menu>
+  <div class="mobile-menu-container">
+    <div class="logo-btn-container">
+      <a class="header-logo" href="./index.html">
+        <svg class="" width="84" height="36">
+          <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <button class="mobile-menu-close" type="button" data-menu-close>
+        <svg class="modal-svg-btn" width="24" height="24">
+          <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-x-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <ul class="nav-list-mobile">
+        <li class="mobile-menu-list">
+          <a href="#about-us" class="header-list-link">About us</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="#benefits" class="header-list-link">Benefits</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="#gallery" class="header-list-link">Gallery</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="#testimonial" class="header-list-link">Testimonial</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="#location" class="header-list-link">Location</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
-    <script type="module" src="./main.js"></script>
+    <div class="modal-overlay" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-svg-btn" width="32" height="32">
+        <use href="/Coffe-Joe-Template/assets/icons-Dbm4778f.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal-text">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+
+    <div class="wrapper-img-btn">
+      <picture>
+        <source
+          media="(max-width: 768px)"
+          srcset="/Coffe-Joe-Template/assets/img-modal-tel-1x-B7hDwhlk.jpg 1x, /Coffe-Joe-Template/assets/img-modal-tel-2x-BGXEZbSw.jpg 2x"
+          width="256"
+          height="200"
+        />
+        <source
+          media="(min-width: 769px)"
+          srcset="/Coffe-Joe-Template/assets/img-modal-1x-CuFGp8iJ.jpg 1x, /Coffe-Joe-Template/assets/img-modal-2x-DO889jBs.jpg 2x"
+          width="644"
+          height="374"
+        />
+
+        <img
+          class="modal-img"
+          src="/Coffe-Joe-Template/assets/img-modal-1x-CuFGp8iJ.jpg"
+          alt="image coffee and croissant"
+          width="644"
+          height="374"
+        />
+      </picture>
+      <button class="modal-btn" type="button">Close</button>
+    </div>
+  </div>
+</div>
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
